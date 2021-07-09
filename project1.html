@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghav fitness</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="stylesheet" href="project1.css"> -->
+    <style>
+         body {
+            margin: 0px;
+            padding: 0px;
+            background: url('img/Raghav3.jpg');
+            background-size: cover;
+            color: white;
+            font-family: 'Otomanopee One', sans-serif;
+            height: 1500px;
+        }
+
+        .left {
+               /* border: 5px solid red;  */
+             position: absolute;
+            top: 24px;
+            left: 38px;
+            display: inline-block;
+
+         }
+
+        .mid { 
+             /* border: 5px solid red; */
+            /* position: fixed;
+            top: 12px; */
+             margin: 13px auto;
+            width: 659px;
+
+        }
+
+        .right {
+            /* border: 5px solid red; */
+            position: absolute;
+            top: 34px;
+            right: 32px;
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 26px;
+        }
+
+        .navbar li a:hover,.navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .left img {
+            width: 112px;
+            height: 74px;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        /* header::before{
+            position: absolute;
+            background: url('img/Raghav3.jpg');
+            content: "";
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.7;
+        } */
+
+        .btn {
+            margin: 5px;
+            padding: 0px 10px;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: grey;
+        }
+
+         .container { 
+            /* border: 2px solid white; */
+            border-radius: 37px;
+            margin: 149px 71px;
+            padding: 41px 110px;
+            width: 70%;
+        }
+
+
+
+        .formGroup input {
+            padding: 4px;
+            /* border: 2px solid black; */
+             border-radius: 10px;
+            display: block;
+            width: 48%;
+            margin: 6px auto;
+            font-size: 17px;
+            text-align: center;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            width: 51%;
+            margin: 10px auto;
+            display: block;
+            font-size: 19px;
+        }  
+      
+     </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo4.jpg" alt="">
+            <div>
+                Raghav Fitness
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM OF LUDHIANA</h1>
+        <form action="noaction.php">
+            <div class="formGroup">
+                <input type="text" name="" placeholder="Enter your Name">
+
+            </div>
+            <div class="formGroup">
+                <input type="text" name="" placeholder="Enter your Age">
+
+            </div>
+            <div class="formGroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+
+            </div>
+            <div class="formGroup">
+
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="formGroup">
+
+                <input type="text" name="" placeholder="Enter your Email ID">
+            </div>
+            <div class="formGroup">
+
+                <input type="text" name="" placeholder="Enter your Phone number">
+            </div>
+            <button class="btn">
+                SUBMIT
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>
